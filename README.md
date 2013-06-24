@@ -11,7 +11,7 @@ C# client for the [IP Info DB API](http://ipinfodb.com/)
 
 ### Create the object
 
-    var consumer = new CSharp.IPInfoDB.ApiConsumer(yourKey);
+    var consumer = new ApiConsumer(yourKey);
 
 ### Retrieve a location for an ip
 
@@ -19,7 +19,7 @@ C# client for the [IP Info DB API](http://ipinfodb.com/)
 
 ### Retrieve a profile async
 
-    var locationTask = consumer.GetLocation("8.8.8.8");
+    var locationTask = consumer.GetLocationAsync("8.8.8.8");
 
     //Do work
 
