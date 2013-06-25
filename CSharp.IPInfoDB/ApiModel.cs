@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace CSharp.IPInfoDB
 {
-    public class ApiModel
+    public class IPInfoDBModel { }
+
+    public class CityLocationModel : IPInfoDBModel
     {
         public string statusCode { get; set; }
         public string statusMessage { get; set; }
@@ -19,5 +21,14 @@ namespace CSharp.IPInfoDB
         public string latitude { get; set; }
         public string longitude { get; set; }
         public string timeZone { get; set; }
+    }
+
+    public class CountryLocationModel : IPInfoDBModel
+    {
+        public string statusCode { get; set; }
+        public string statusMessage { get; set; }
+        public string ipAddress { get; set; }
+        public string countryCode { get; set; }
+        public string countryName { get; set; }
     }
 }
