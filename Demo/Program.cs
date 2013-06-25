@@ -15,13 +15,13 @@ namespace Demo
 
             var consumer = new CSharp.IPInfoDB.ApiConsumer(yourKey, true);
 
-            var model = consumer.GetCity("8.8.8.8");
+            var model = consumer.GetCity("63.75.190.1");
             //var model = consumer.GetCountry("::1");
 
             if (model.statusCode == "ERROR")
                 Console.WriteLine(model.statusMessage);
             else
-                Console.WriteLine(model.countryName);
+                Console.WriteLine(model.cityName);
 
             Console.Read();
         }
