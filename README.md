@@ -23,7 +23,7 @@ C# client for the [IP Info DB API](http://ipinfodb.com/)
 
     //Do work
 
-    var locationModel = lcoationTask.Result;
+    var locationModel = locationTask.Result;
 
 ### Access profile members
 
