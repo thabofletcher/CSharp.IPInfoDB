@@ -37,7 +37,7 @@ C# client for the [IP Info DB API](http://ipinfodb.com/)
 
 The MIT License (MIT)
 
-Copyright (c) 2013 Thabo Fletchers
+Copyright (c) 2013 Thabo Fletcher
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
